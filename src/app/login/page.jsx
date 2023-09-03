@@ -43,7 +43,7 @@ const Login = () => {
             <div className={styles.logoContainer}>
               <Image
                 className={styles.sideImage}
-                src="/assets/image/leftSide.png"
+                src="/assets/image/LeftSide.png"
                 alt="Your Logo"
                 fill={true}
               />
