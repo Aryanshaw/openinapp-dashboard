@@ -84,6 +84,7 @@ const Login = () => {
               </div>
             </div>
           </div>
+          <div className={styles.userlogincomponents}>
           <Image
             src="/assets/image/leftSide.png"
             // fill={true}
@@ -94,7 +95,6 @@ const Login = () => {
               e.target.src = "/assets/image/leftSide.png";
             }}
           />
-          <div className={styles.userlogincomponents}>
             <h1>Sign in</h1>
             <br />
             <p>Sign in to your account</p>
