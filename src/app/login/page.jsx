@@ -85,16 +85,16 @@ const Login = () => {
             </div>
           </div>
           <div className={styles.userlogincomponents}>
-          <Image
-            src="/assets/image/leftSide.png"
-            // fill={true}
-            width={35}
-            height={35}
-            alt="Your Logo"
-            onError={(e) => {
-              e.target.src = "/assets/image/leftSide.png";
-            }}
-          />
+            <Image
+              src="/assets/image/discord.png"
+              // fill={true}
+              width={35}
+              height={35}
+              alt="Your"
+              onError={(e) => {
+                e.target.src = "/assets/image/discord.png";
+              }}
+            />
             <h1>Sign in</h1>
             <br />
             <p>Sign in to your account</p>
