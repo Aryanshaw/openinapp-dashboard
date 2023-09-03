@@ -43,11 +43,11 @@ const Login = () => {
             <div className={styles.logoContainer}>
               <Image
                 className={styles.sideImage}
-                src="/assets/image/leftSide.png"
+                src="/assets/image/sideblueimg.png"
                 fill={true}
-                alt="Your Logo"
+                alt="sideimage"
                 onError={(e) => {
-                  e.target.src = "/assets/image/leftSide.png";
+                  e.target.src = "/assets/image/sideblueimg.png";
                 }}
               />
               <div className={styles.boardText}>Board.</div>
