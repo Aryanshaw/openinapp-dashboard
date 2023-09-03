@@ -35,9 +35,8 @@ const Dashboard = () => {
   }
 
   const handleUserSignUp = (userData) => {
-    // Callback function to receive user information from the Modal component
     setUserInfo(userData);
-    closeModal(); // Close the modal after sign-up
+    closeModal(); 
   };
 
   return (
@@ -102,7 +101,6 @@ const Dashboard = () => {
               </div>
             )}
           </div>
-          {/* <button onClick={() => signOut("google")}> sign out</button> */}
         </div>
       ) : (
         <p style={{ textAlign: "center" }}>
