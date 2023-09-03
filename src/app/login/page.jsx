@@ -43,14 +43,16 @@ const Login = () => {
             <div className={styles.logoContainer}>
               <Image
                 className={styles.sideImage}
-                src="/assets/image/LeftSide.png"
-                alt="Your Logo"
+                src="/assets/image/leftSide.png"
                 fill={true}
+                alt="Your Logo"
+                onError={(e) => {
+                  e.target.src = "/assets/image/leftSide.png";
+                }}
               />
               <div className={styles.boardText}>Board.</div>
               <div className={styles.logotext}>Logo</div>
               <div className={styles.icons}>
-                {/* Add your new icons (e.g., GitHub) here */}
                 <Image
                   src="/assets/image/github.png"
                   alt="GitHub"
@@ -79,11 +81,20 @@ const Login = () => {
                   height={30}
                   className={styles.icon}
                 />
-
-                {/* Add more icons as needed */}
               </div>
             </div>
           </div>
+          <Image
+            className={styles.sideImage}
+            src="/assets/image/leftSide.png"
+            // fill={true}
+            width={35}
+            height={35}
+            alt="Your Logo"
+            onError={(e) => {
+              e.target.src = "/assets/image/leftSide.png";
+            }}
+          />
           <div className={styles.userlogincomponents}>
             <h1>Sign in</h1>
             <br />
@@ -124,7 +135,6 @@ const Login = () => {
               </form>
               <p style={{ display: "flex" }}>
                 Dont have an account ? register here
-                {/* <p style={{ color: "blue", marginLeft: "5px" }}> register here</p> */}
               </p>
             </div>
           </div>
