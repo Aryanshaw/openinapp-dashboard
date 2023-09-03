@@ -85,7 +85,6 @@ const Login = () => {
             </div>
           </div>
           <Image
-            className={styles.sideImage}
             src="/assets/image/leftSide.png"
             // fill={true}
             width={35}
